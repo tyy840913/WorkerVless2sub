@@ -1,5 +1,5 @@
 
-let 快速订阅访问入口 = ['auto'];
+let 快速订阅访问入口 = ['auto-sub'];
 let addresses = [];
 let addressesapi = [];
 
@@ -1463,3 +1463,4 @@ export default {
 		}
 	}
 };
+
