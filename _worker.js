@@ -1370,9 +1370,6 @@ if ((noTLS === 'true' && 协议类型 === atob('VkxFU1M=')) || 协议类型 === 
 const base64Response = btoa(combinedContent);
 return new Response(base64Response, { headers: responseHeaders });
 
-
-			let combinedContent = responseBody; // 合并内容
-
 			if (link) {
 				const links = await 整理(link);
 				const 整理节点LINK = (await getLink(links)).join('\n');
@@ -1442,4 +1439,5 @@ return new Response(base64Response, { headers: responseHeaders });
 			});
 		}
 	}
-};
+}
+
