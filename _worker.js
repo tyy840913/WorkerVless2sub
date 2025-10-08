@@ -1439,5 +1439,6 @@ return new Response(base64Response, { headers: responseHeaders });
 			});
 		}
 	}
-}
+};
+
 
