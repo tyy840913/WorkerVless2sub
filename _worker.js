@@ -1462,5 +1462,3 @@ export default {
 		}
 	}
 };
-
-
